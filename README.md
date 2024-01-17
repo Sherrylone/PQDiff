@@ -1,3 +1,1 @@
-# PQDiff
-
-NeurIPS 2023 submitted
+# Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach (ICLR 2024)
