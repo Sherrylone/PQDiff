@@ -6,6 +6,7 @@ Authors: Shaofeng Zhang, Jinfa Huang, Qiang Zhou, Zhibin Wang, Fan Wang, Jiebo L
 This paper proposes PQDiff, which can outpaint images with continuous multiple and arbitrary positions.
 
 **Dataset preparing**
+
 We use Flickr, Buildings, and WikiArt datasets, which can be obtained at [link](https://github.com/Kaiseem/QueryOTR)
 
 **Training stage**
