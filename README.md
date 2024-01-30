@@ -1,6 +1,6 @@
 <h2 align="center"> <a href="">[ICLR 2024🔥] Continuous-Multiple Image Outpainting in One-Step 
 
-via Positional Query and A Diffusion-based Approach
+<a href="">via Positional Query and A Diffusion-based Approach
 </a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
 
