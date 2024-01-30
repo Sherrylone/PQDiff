@@ -4,6 +4,15 @@
 </a></h2>
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
+<h5 align="center">
+
+
+   [![arxiv](https://img.shields.io/badge/Arxiv-2401.15652-red)](https://arxiv.org/pdf/2401.15652.pdf)
+   [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSherrylone%2FPQDiff&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+   ![GitHub User's stars](https://img.shields.io/github/stars/Sherrylone%2FPQDiff)
+
+</h5>
+
 <h4 align="center">
 Shaofeng Zhang<sup>1</sup>, Jinfa Huang<sup>2</sup>, Qiang Zhou<sup>3</sup>, Zhibin Wang<sup>3</sup>, Fan Wang<sup>4</sup>, Jiebo Luo<sup>2</sup>, Junchi Yan<sup>1,*</sup>
 
