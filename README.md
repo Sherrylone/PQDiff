@@ -1,8 +1,8 @@
-<h2 align="center"> <a href="">[ICLR 2024🔥] Continuous-Multiple Image Outpainting in One-Step 
+<h2 align="center"> <a href="https://arxiv.org/abs/2401.15652">[ICLR 2024🔥] Continuous-Multiple Image Outpainting in One-Step 
 
-<a href="">via Positional Query and A Diffusion-based Approach
+<a href="https://arxiv.org/abs/2401.15652">via Positional Query and A Diffusion-based Approach
 </a></h2>
-<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for latest update.  </h2>
+<h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
 <h4 align="center">
 Shaofeng Zhang<sup>1</sup>, Jinfa Huang<sup>2</sup>, Qiang Zhou<sup>3</sup>, Zhibin Wang<sup>3</sup>, Fan Wang<sup>4</sup>, Jiebo Luo<sup>2</sup>, Junchi Yan<sup>1,*</sup>
