@@ -67,10 +67,11 @@ Here are some generated samples:
 Please consider citing 📑 our papers if our repository is helpful to your work, thanks sincerely!
 
 ```bibtex
-@misc{Zhang2024PQDiff,
+@misc{zhang2024continuousmultiple,
       title={Continuous-Multiple Image Outpainting in One-Step via Positional Query and A Diffusion-based Approach}, 
       author={Shaofeng Zhang and Jinfa Huang and Qiang Zhou and Zhibin Wang and Fan Wang and Jiebo Luo and Junchi Yan},
       year={2024},
+      eprint={2401.15652},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
