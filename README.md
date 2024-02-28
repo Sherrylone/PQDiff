@@ -19,7 +19,7 @@ Shaofeng Zhang<sup>1</sup>, Jinfa Huang<sup>2</sup>, Qiang Zhou<sup>3</sup>, Zhi
 <sup>1</sup>Shanghai Jiao Tong University, <sup>2</sup>University of Rochester,  <sup>3</sup>INF Tech Co., Ltd., <sup>4</sup>Alibaba Group
 </h4>
 
-## 💡 Highlights
+## 💡 Highlight
 Our PQDiff can outpaint images with arbitrary and continuous multiples in one step by learning the positional relationships and pixel information at the same time. 
 
 ![](./crop_out_sample.png)
