@@ -20,10 +20,19 @@ Shaofeng Zhang<sup>1</sup>, Jinfa Huang<sup>2</sup>, Qiang Zhou<sup>3</sup>, Zhi
 </h4>
 
 ## 💡 Highlights
+Our PQDiff can outpaint images with arbitrary and continuous multiples in one step by learning the positional relationships and pixel information at the same time. 
 
-This paper proposes PQDiff, which learns the positional relationships and pixel information at the same time. Methodically, PQDiff can outpaint at any multiple in only one step, greatly increasing the applicability of image outpainting. 
+![](./crop_out_sample.png)
+
+## ⚡ Framework
+Methodically, PQDiff can outpaint at any multiple in only one step, greatly increasing the applicability of image outpainting. 
 
 ![](./framework.png)
+
+- For training, we randomly crop the image twice with different random crop ratios to obtain two views. 
+Then, we compute the relative positional embeddings of the anchor view (red box) and the target view (blue box). 
+
+- For sampling, i.e. testing or generation, we first compute the target view (blue box) based on the anchor view (red box) to form a mode that means a positional relation. With different types of modes, we can perform arbitrary and controllable image outpainting.
 
 ## 🚀 Quick Start
 ### Dataset preparing
