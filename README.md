@@ -39,6 +39,10 @@ Then, we compute the relative positional embeddings of the anchor view (red box)
 
 We use Flickr, Buildings, and WikiArt datasets, which can be obtained at [link](https://github.com/Kaiseem/QueryOTR).
 
+### Download the autoencoder
+
+We use the autoencoder transformed from the stable diffusion, and you can download it from [link](https://drive.google.com/file/d/130Cq8uFKEqK8sgroIwN7hnRdNvB9DkCo/view?usp=sharing).
+
 ### Training stage
 ```
 accelerate launch --multi_gpu --num_processes 8 --mixed_precision fp16 train_ldm.py --config=configs/flickr192_large.py
