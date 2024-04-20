@@ -181,7 +181,7 @@ class BuildingDataset(Dataset):
         return self.to_tensor(input_img), self.to_tensor(target_img)
 
 class FlickrDataset(Dataset):
-    def __init__(self, path='./dataset/scenery/train/', size=56):
+    def __init__(self, path='./dataset/scenery/test/', size=56):
         f_name = os.listdir(path)        
         self.path = [path+str(f_name[i]) for i in range(len(f_name)) if int(f_name[i].split('_')[-1].split('.')[0].replace(',', ''))>5040]
         print("Total evaluation images: ", len(self.path))
@@ -272,6 +272,11 @@ def sampling(args, config):
         pred_target = unpreprocess(pred_target)
         target_img = unpreprocess(target_img)
         pred_copy = get_local_rgb(pred_target.clone(), target_img, type_)
+        directories = [f'{args.eval_dir}/gen', f'{args.eval_dir}/ori', f'{args.eval_dir}/copy']
+
+        for directory in directories:
+            if not os.path.exists(directory):
+                os.makedirs(directory)
 
         pred_target = transform_out(pred_target)
         target_img = transform_out(target_img)
