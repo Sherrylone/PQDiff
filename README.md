@@ -30,7 +30,7 @@ Our PQDiff can outpaint images with arbitrary and continuous multiples in one st
 
 ### Model Zoo
 
-|Checkpoint|Other|Google Cloud|Peking University Yun|
+|Checkpoint|Other|Google Cloud|Baidu Yun|
 |:--------:|:--------------:|:-----------:|:-----------:|
 | Scenery | TBD | [Download](https://drive.google.com/drive/folders/1tfoDWm-qt63nCRMVDDkvQwcji9lgU0iq?usp=sharing) | TBD |
 | Building Facades | TBD | TBD | TBD |
