@@ -1,3 +1,6 @@
+<div align=center>
+<img src="img/PQDiff_logo.png" width="150px">
+</div>
 <h2 align="center"> <a href="https://arxiv.org/abs/2401.15652">[ICLR 2024🔥] Continuous-Multiple Image Outpainting in One-Step 
 
 <a href="https://arxiv.org/abs/2401.15652">via Positional Query and A Diffusion-based Approach
@@ -5,7 +8,6 @@
 <h5 align="center"> If you like our project, please give us a star ⭐ on GitHub for the latest update.  </h2>
 
 <h5 align="center">
-
 
    [![arxiv](https://img.shields.io/badge/Arxiv-2401.15652-red)](https://arxiv.org/pdf/2401.15652.pdf)
    [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSherrylone%2FPQDiff&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -22,19 +24,20 @@ Shaofeng Zhang<sup>1</sup>, Jinfa Huang<sup>2</sup>, Qiang Zhou<sup>3</sup>, Zhi
 ## 💡 Highlight
 Our PQDiff can outpaint images with arbitrary and continuous multiples in one step by learning the positional relationships and pixel information at the same time. 
 
-![](./crop_out_sample.png)
-
-## ⚡ Framework
-Methodically, PQDiff can outpaint at any multiple in only one step, greatly increasing the applicability of image outpainting. 
-
-![](./framework.png)
-
-- For training, we randomly crop the image twice with different random crop ratios to obtain two views. 
-Then, we compute the relative positional embeddings of the anchor view (red box) and the target view (blue box). 
-
-- For sampling, i.e. testing or generation, we first compute the target view (blue box) based on the anchor view (red box) to form a mode that means a positional relation. With different types of modes, we can perform arbitrary and controllable image outpainting.
+![](img/crop_out_sample.png)
 
 ## 🚀 Quick Start
+
+### Model Zoo
+
+|Checkpoint|Other|Google Cloud|Peking University Yun|
+|:--------:|:--------------:|:-----------:|:-----------:|
+| Scenery | TBD | [Download](https://drive.google.com/drive/folders/1tfoDWm-qt63nCRMVDDkvQwcji9lgU0iq?usp=sharing) | TBD |
+| Building Facades | TBD | TBD | TBD |
+| WikiArt | TBD | TBD | TBD |
+
+
+
 ### Dataset preparing
 
 We use Flickr, Buildings, and WikiArt datasets, which can be obtained at [link](https://github.com/Kaiseem/QueryOTR).
@@ -76,7 +79,17 @@ python eval_dir/psnr.py --original ./ori_dir/ --contrast ./gen_dir/
 
 Here are some generated samples:
 
-![](./samples.png)
+![](img/samples.png)
+
+## ⚡ Framework
+Methodically, PQDiff can outpaint at any multiple in only one step, greatly increasing the applicability of image outpainting. 
+
+![](img/framework.png)
+
+- For training, we randomly crop the image twice with different random crop ratios to obtain two views. 
+Then, we compute the relative positional embeddings of the anchor view (red box) and the target view (blue box). 
+
+- For sampling, i.e. testing or generation, we first compute the target view (blue box) based on the anchor view (red box) to form a mode that means a positional relation. With different types of modes, we can perform arbitrary and controllable image outpainting.
 
 ## 👍 Acknowledgement
 * [QueryOTR](https://github.com/Kaiseem/QueryOTR). The codebase provides image outpainting datasets and a strong baseline.
